@@ -1,0 +1,9 @@
+{
+  "announcements": [{
+    "title": "Welcome",
+    "info": "This is the first announcement."},
+    {
+      "title": "Hi there",
+      "info": "Another bit of info for you to read."
+    }]
+}

@@ -1,0 +1,20 @@
+<h1> Welcome to Super Rentals </h1>
+
+
+
+We hope you find exactly what you're looking for in a place to stay.
+<br>
+  <!-- <button {{action 'announcementShow'}}>Show Announcements</button> -->
+<br>
+<div class="for_rent">
+<ul>
+  {{#each model as |rental|}}
+    {{rental-tile rental=rental destroyRental="destroyRental"}}
+  {{/each}}
+</ul>
+</div>
+{{new-rental save2="save3"}}
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+{{#link-to 'announcements'}}Show Announcements{{/link-to}}
